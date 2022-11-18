@@ -23,6 +23,12 @@
   max-width: 48rem;
 }
 
+.body table,
+th,
+td {
+  border: 1px solid;
+}
+
 .article a {
   border-bottom: 1.5px solid currentColor;
   font-weight: var(--medium);
@@ -89,7 +95,7 @@
   .article ul {
     padding-left: 5px;
   }
-  
+
   .article ol {
     padding-left: 5px;
   }
